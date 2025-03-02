@@ -1,4 +1,4 @@
-# SamsungSystemSupportEngine 6.3.3.0 Patch for Non-Samsung Devices
+# SamsungSystemSupportEngine 6.3.3.0 Patched for Non-Samsung Devices
 
 [![Status: Working](https://img.shields.io/badge/Status-Working-brightgreen.svg?style=flat-square)](https://shields.io/)
 
