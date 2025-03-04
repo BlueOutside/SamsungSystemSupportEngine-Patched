@@ -15,7 +15,7 @@ Samsung software, like Multi Control and Samsung Settings, are most likely to in
 This patch modifies a single instruction within `SamsungSystemSupportEngine.exe` to bypass a hardware check related to ACPI driver and device verification as the support engine checks for a driver named `Samsung Event Controller`, this driver makes calls to an ACPI device named `SCAI` and is only present on Galaxy Books. Installing this driver on a device not manufactured by samsung will just make it fail to start with Code 10 instruction is not supported.
 
 **Additionnal infos**
-The engine doesn't start automatically as this is done by another driver (Samsung System Support Engine ¯\_(ツ)_/¯) and requires you to make a service to start it automatically on boot.
+The engine doesn't start automatically as this is done by another driver (Samsung System Support Engine (¯\_(ツ)_/¯) and requires you to make a service to start it automatically on boot.
 
 **Not related to the Settings directly** : the Samsung Cloud app will NOT sync Wifi and Bluetooth if you have Encrypt synced data on as:
 - It requires Secure Boot to be enabled (Will say Knox Matrix did not respond)
