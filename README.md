@@ -21,6 +21,8 @@ The engine doesn't start automatically as this is done by another driver (Samsun
 - It requires Secure Boot to be enabled (Will say Knox Matrix did not respond)
 - Knox Matrix Service can only be ran on x86/64 **Galaxy Books** (On non-Galaxy Books it will say the device doesn't support encryption with error code 0x1001)
 
+Some Samsung apps check for some Registery keys to see if their value corresponds to the values a Galaxy Book would have and if it doesn't find any "relevant" values, they will not launch. You will need to use a script to spoof your device as a Galaxy Book. Do note that those spoofed values reset on boot, but the scripts *should* take care of that for you.
+
 **Enjoy some more unlocked Samsung features on your non-Samsung device! And reminder to use 6.3.3.0 from https://www.catalog.update.microsoft.com/Search.aspx?q=Samsung%20System%20Support%20Service%20 !**
 
 ![Demo](./Images/Demo.png)
