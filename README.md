@@ -6,6 +6,9 @@
 
 This repository contains a patch for `SamsungSystemSupportEngine.exe` that allows you to use some Samsung features that may require Samsung Settings, most notably **Samsung Multi Control**, on laptops that are *not* manufactured by Samsung.
 
+> [!NOTE]
+> You can find the tutorial on how to use this patch in the repo's wiki. And while this note exists, this repo will update when the driver gets a new update. You will need to change branch and use the branch of the adequate version of the engine you need
+
 **Why is this patch needed?**
 
 Samsung software, like Multi Control and Samsung Settings, are most likely to include checks to ensure they are running on genuine Samsung hardware. Without these checks being bypassed, these features either won't function/crash on non-Samsung devices. A common instance is a crash in `SamsungSystemSupportEngine.exe` with a `ucrtbase.dll` error when `Samsung Settings` is launched on a non-Galaxy Book.
