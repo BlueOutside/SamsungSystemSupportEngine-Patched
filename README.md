@@ -1,4 +1,4 @@
-# SamsungSystemSupportEngine 6.3.3.0 Patched for Non-Samsung Devices
+# SamsungSystemSupportEngine 7.0.10.0 Patched for Non-Samsung Devices
 
 [![Status: Working](https://img.shields.io/badge/Status-Working-brightgreen.svg?style=flat-square)](https://shields.io/)
 
@@ -8,7 +8,7 @@ This repository contains a patch for `SamsungSystemSupportEngine.exe` that allow
 
 **Why is this patch needed?**
 
-Samsung software, like Multi Control and Samsung Settings, are most likely to include checks to ensure they are running on genuine Samsung hardware. Without these checks being bypassed, these features either won't function/crash on non-Samsung devices. A common instance is a crash in `SamsungSystemSupportEngine.exe` with a `ucrtbase.dll` error when `Samsung Settings` is launched on a non-Galaxy Book.
+Samsung software and functionnalities, like Multi Control, Samsung Settings, Seamless Buds switching (part of `Samsung Settings`) are most likely to include checks to ensure they are running on genuine Samsung hardware. Without these checks being bypassed, these features either won't function/crash on non-Samsung devices. A common instance is a crash in `SamsungSystemSupportEngine.exe` with a `ucrtbase.dll` error when `Samsung Settings` is launched on a non-Galaxy Book.
 
 **What does this patch do?**
 
@@ -23,6 +23,6 @@ The engine doesn't start automatically as this is done by another driver (Samsun
 
 Some Samsung apps check for some Registery keys to see if their value corresponds to the values a Galaxy Book would have and if it doesn't find any "relevant" values, they will not launch. You will need to use a script to spoof your device as a Galaxy Book. Do note that those spoofed values reset on boot, but the scripts *should* take care of that for you.
 
-**Enjoy some more unlocked Samsung features on your non-Samsung device! And reminder to use 6.3.3.0 from https://www.catalog.update.microsoft.com/Search.aspx?q=Samsung%20System%20Support%20Service%20 !**
+**Enjoy some more unlocked Samsung features on your non-Samsung device! And reminder to use 7.0.10.0 from https://www.catalog.update.microsoft.com/Search.aspx?q=Samsung%20System%20Support%20Service%20 !**
 
 ![Demo](./Images/Demo.png)
