@@ -12,7 +12,7 @@ assignees: BlueOutside
 A clear and concise description of what happens with the engine.
 
 **Get Event Viewer logs (if applicable)**
-Steps to reproduce the behavior:
+Steps to get the logs:
 1. Go to 'Event Viewer'
 2. Go to 'Windows Journals' --> 'Application'
 3. Click on 'Filter the current journal'
