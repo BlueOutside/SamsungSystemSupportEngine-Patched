@@ -1,5 +1,9 @@
 # SamsungSystemSupportEngine 7.0.10.0 Patched for Non-Samsung Devices
 
+> [!IMPORTANT]
+> If the patch doesn't work for you, please open an issue if there isn't one for this version in order for me to know if it only works on my device or for everyone.
+
+
 [![Status: Working](https://img.shields.io/badge/Status-Working-brightgreen.svg?style=flat-square)](https://shields.io/)
 
 **Enable Samsung Multi Control (and potentially other features) on your Non-Samsung Laptop!**
