@@ -6,6 +6,9 @@
 
 This repository contains a patch for `SamsungSystemSupportEngine.exe` that allows you to use some Samsung features that may require Samsung Settings, most notably **Samsung Multi Control**, on laptops that are *not* manufactured by Samsung.
 
+> [!NOTE]
+> You can find the tutorial on how to use this patch in the repo's wiki. And while this note exists, this repo will update when the driver gets a new update. You will need to change branch and use the branch of the adequate version of the engine you need.
+
 **Why is this patch needed?**
 
 Samsung software and functionnalities, like Multi Control, Samsung Settings, Seamless Buds switching (part of `Samsung Settings`) are most likely to include checks to ensure they are running on genuine Samsung hardware. Without these checks being bypassed, these features either won't function/crash on non-Samsung devices. A common instance is a crash in `SamsungSystemSupportEngine.exe` with a `ucrtbase.dll` error when `Samsung Settings` is launched on a non-Galaxy Book.
@@ -21,7 +24,8 @@ The engine doesn't start automatically as this is done by another driver (Samsun
 - It requires Secure Boot to be enabled (Will say Knox Matrix did not respond)
 - Knox Matrix Service can only be ran on x86/64 **Galaxy Books** (On non-Galaxy Books it will say the device doesn't support encryption with error code 0x1001)
 
-Some Samsung apps check for some Registery keys to see if their value corresponds to the values a Galaxy Book would have and if it doesn't find any "relevant" values, they will not launch. You will need to use a script to spoof your device as a Galaxy Book. Do note that those spoofed values reset on boot, but the scripts *should* take care of that for you.
+> [!NOTE]
+> Some Samsung apps check for some Registery keys to see if their value corresponds to the values a Galaxy Book would have and if it doesn't find any "relevant" values, they will not launch. You will need to use a script to spoof your device as a Galaxy Book. Do note that those spoofed values reset on boot, but the scripts *should* take care of that for you.
 
 **Enjoy some more unlocked Samsung features on your non-Samsung device! And reminder to use 7.0.10.0 from https://www.catalog.update.microsoft.com/Search.aspx?q=Samsung%20System%20Support%20Service%20 !**
 
